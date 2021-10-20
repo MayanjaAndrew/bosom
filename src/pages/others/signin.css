@@ -1,0 +1,82 @@
+.signin__section{
+    background-color:rgb(56, 0, 60);
+    height:100vh;
+    overflow: auto;   
+  
+}
+.container{
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+}
+form{
+    text-align: left;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+
+.button{
+    width: 100%;
+    height:2rem;
+    margin-top: 0.2rem;
+    border:1px groove rgb(0, 255, 133);
+    border-radius: 0.2rem;
+    background-color: rgb(0, 255, 133);
+
+}
+label{
+    color:white;
+}
+
+.signin-opts{
+display: flex;
+flex-direction: row;
+width:100%;
+}
+.signin-opt{
+    color: #f3f3f3;
+
+flex:1;
+  
+    border-radius: 1rem;
+    height:3rem;
+  background-color: rgb(56, 0, 60);
+box-shadow: 0px 0px 7px 1.5px rgb(67, 5, 73);
+
+}
+.signin-opt-middle{
+    color:#f3f3f3;
+    flex: 1;
+border-radius: 1rem;
+height: 3rem;
+background-color: rgb(56, 0, 60);
+box-shadow: 0px 0px 10px 1.5px rgb(67, 5, 73);
+margin:0rem 1rem;
+}
+.signup-set{
+    color:#f3f3f3;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+}
+.logos{
+    width:100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signin-image{
+    width:5rem;
+}
+.h4{
+    margin-bottom: 3rem;
+    text-align: left;
+}
+img{
+    max-width: 100%;
+}
+.signin-p{
+    margin-top: 5rem;
+}
