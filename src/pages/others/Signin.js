@@ -34,7 +34,7 @@ function Signin() {
   <p class="signin-p">--Or sign in with--</p>
 
   <div class="signin-opts">
-   <div class="signin-opt">Basic</div>
+   <div class="signin-opt">Basicc</div>
    <div  class="signin-opt-middle">Basic</div>
    <div  class="signin-opt">Basic</div>
   </div>
