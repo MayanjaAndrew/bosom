@@ -26,8 +26,10 @@ body{
     border:none; 
     width: 100%;
 }
-.card-img{
+#card-img{
     max-width: 100%;
+    border-radius: 1rem;
+
 }
 .card-img-contain{
     flex:1;
@@ -40,4 +42,29 @@ body{
 #card{
     margin-bottom: 4rem;
 }
+}
+@media only screen and (min-width:768px){
+    #card{
+        flex:1;
+        margin-bottom: 0rem;
+        display: flex;
+        flex-direction: column;
+        /*background-color: #f3f3f3;*/
+        margin-left: 1rem;
+    }
+    #container-fluid{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-fluid-group-one{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2rem;
+    }
+      .container-fluid-group-two{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2rem;
+
+    }
 }
