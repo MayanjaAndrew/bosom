@@ -1,12 +1,16 @@
 .signin__section{
     background-color:rgb(56, 0, 60);
-    height:100vh;
-    overflow: auto;   
+    min-height:100vh;
+    overflow: auto;
+    
   
+}
+body{
+    margin: 0;
 }
 .container{
     height: 100%;
-    overflow: auto;
+    
     text-align: center;
 }
 form{
@@ -43,6 +47,19 @@ flex:1;
     height:3rem;
   background-color: rgb(56, 0, 60);
 box-shadow: 0px 0px 7px 1.5px rgb(67, 5, 73);
+background-image: url('../media/5a35540277d9e6.8445514415134443544909.png');
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+/* You must set a specified height*/
+max-width: 100%;
+object-fit: contain;
+padding: 0px 0px;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+
 
 }
 .signin-opt-middle{
@@ -53,6 +70,19 @@ height: 3rem;
 background-color: rgb(56, 0, 60);
 box-shadow: 0px 0px 10px 1.5px rgb(67, 5, 73);
 margin:0rem 1rem;
+background-image: url('../media/kisspng-logo-advertising-information-icon-twitter-transparent-png-5a7592dd969d34.5292093115176547496169.png');
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+/* You must set a specified height*/
+max-width: 100%;
+object-fit: contain;
+padding: 0px 0px;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+
 }
 .signup-set{
     color:#f3f3f3;
