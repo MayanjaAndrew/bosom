@@ -1,0 +1,43 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+.container-topbar{
+    padding: 2rem;
+}
+#card{
+    border-radius: 2rem;
+    background-color: rgb(56, 0, 60);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border:none;
+}
+#list-group{
+    background-color: #f3f3f3;
+    list-style: none;
+    border:none;
+    background-color: #f3f3f3;
+    border-radius: 1rem;
+}
+#list-group-item{
+    border:none; 
+    width: 100%;
+}
+.card-img{
+    max-width: 100%;
+}
+.card-img-contain{
+    flex:1;
+}
+.card-img-details{
+    flex:1;
+}
+
+@media only screen and (min-width:640px){
+#card{
+    margin-bottom: 4rem;
+}
+}

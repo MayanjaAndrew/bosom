@@ -9,6 +9,9 @@ import {Link} from "react-router-dom";
 
 
 function Signin() {
+  const handler=()=>{
+
+  }
     return (
    
     <section class="signin__section">
@@ -31,7 +34,8 @@ function Signin() {
   <div className="checkbox">
     <label><input type="checkbox"/> Remember me</label>
   </div>
-  <Button type="submit" className="button">SignIn</Button>
+  <Link to="/classintro"><Button type="submit" className="button">SignIn</Button></Link>
+
   </form>
 
   <p class="signin-p">--Or sign in with--</p>
