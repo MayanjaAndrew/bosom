@@ -1,0 +1,133 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+.navigation-main{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0rem 0.5rem;
+    height: 60%;
+}
+.contents{
+    color:#f3f3f3;
+    border:1px solid white;
+}
+#navigation{
+    position: fixed;
+    background-color: rgba(56, 0, 60,0);
+    bottom: 0rem;
+    left:0;
+    right: 0;
+    bottom: 0;
+    padding: 0.5rem 0rem;
+    border-top: 1px solid white;
+    z-index:999;
+    display: flex;
+    flex-direction: column;
+}
+#navigation-tabs{
+    position: fixed;
+    background-color: rgb(56, 0, 60);
+    bottom: 0rem;
+    left:0;
+    right: 0;
+    padding: 0.5rem 0rem;
+    border-top:1px solid white;
+    z-index: 998;
+}
+
+.navigation-notes-toggle-image{
+background-image: url('./ASEI-3D-Logo.png');
+background-position: center;
+background-size:contain;
+background-repeat: no-repeat;
+height: 5rem; /* You must set a specified height*/
+max-width: 5rem;
+object-fit: contain;
+padding: 0px 0px;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+position: relative;
+}
+
+.logoo{
+   color:white;
+   display: flex;
+   flex-direction: row; 
+   justify-content: space-between;
+}
+#navigation-tabs-toggle{
+position:fixed;
+bottom:5rem;
+right: 1.5rem;
+background-color: blanchedalmond;
+max-width:auto;
+z-index: 1000;
+padding: 0;
+border-radius: 2rem;
+}
+.navigation-tabs-toggle-button{
+width: 3rem;
+height: 3rem;
+border-radius: 3rem;
+}
+.navigation-tabs-toggle-button-one{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+    display: none;
+}
+
+#navigation-notes{
+    position: relative;
+    left:0;
+    right:0;
+    height:100vh;
+
+    background-color: rgba(255, 255, 255,0.6);
+    z-index: 999;
+    transform: scaleZ(0);
+    transform-origin: bottom;
+   /* transition: transform 400ms ease-in-out;**/
+}
+@media only screen and (min-width:768px) {
+
+#navigation {
+  position: absolute;
+  background-color: rgba(255,255,255,0.3);
+  margin-left: 0;
+  padding: 0.5rem 0rem;
+  border-top: 1px solid white;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  width:5rem;
+}
+
+#navigation-tabs {
+    position:fixed;
+    background-color: rgb(56, 0, 60);
+    padding: 0.5rem 0rem;
+    border-bottom: 1px solid white;
+    z-index: 998;
+    height:100vh;
+    top:0rem;
+    bottom: 0rem;
+    margin-left: 0rem;
+    width:5rem;
+}
+.navigation-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.5rem 0rem;
+}
+
+
+}
+

@@ -15,7 +15,7 @@ class Parent extends Component {
      // Start counting when the page is loaded
      this.timeoutHandle = setTimeout(()=>{
           // Add your logic for the transition
-          this.setState({ component: <Signin /> })
+          this.setState({ component: <Signin/> })
      }, 5000);
 }
 
