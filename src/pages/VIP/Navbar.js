@@ -29,7 +29,6 @@ function Navbar() {
           class="navigation-tabs-toggle-button"
           id="navigation-tabs-toggle-button"
         >
-          Hey
         </button>
 
         <button
@@ -37,7 +36,6 @@ function Navbar() {
           class="navigation-tabs-toggle-button-one"
           id="navigation-tabs-toggle-button-one"
         >
-          Woh
         </button>
       </div>
 

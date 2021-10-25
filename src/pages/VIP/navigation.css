@@ -75,12 +75,33 @@ border-radius: 2rem;
 width: 3rem;
 height: 3rem;
 border-radius: 3rem;
+background-image: url('../media/icons8-write-64.png');
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+object-fit: contain;
+padding: 0px 0px;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
 }
 .navigation-tabs-toggle-button-one{
     width: 3rem;
     height: 3rem;
     border-radius: 3rem;
     display: none;
+    background-image: url('../media/icons8-close-64.png');
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+object-fit: contain;
+padding: 0px 0px;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+
 }
 
 #navigation-notes{
