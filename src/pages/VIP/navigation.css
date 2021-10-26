@@ -54,7 +54,7 @@ body{
   position: absolute;
   background-color: rgba(255,255,255,0);
   margin-left: 0;
-  padding: 0.5rem 0rem;
+  padding: 0rem 0.5rem;
   border: 1px solid white;
   z-index: 2;
   display: flex;
@@ -79,7 +79,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 0.5rem 0rem;
+  padding: 0.5rem 0.5rem;
   
 
 }
