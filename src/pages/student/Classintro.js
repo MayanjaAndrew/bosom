@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/esm/Container'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import { Link } from 'react-router-dom'
-import biology from '../media/biology1.jfif'
+import bio from '../media/biology1.jfif'
 import robot from '../media/robotics.jpg'
 import thinker from '../media/thinker.jpg'
 import science from '../media/5a35540277d9e6.8445514415134443544909.png'
@@ -23,7 +23,7 @@ function Classintro() {
         <div className="container-fluid-group-one">
           <Card id="card" style={{ width: '100%' }}>
             <div className="card-img-contain">
-              <Card.Img variant="top" src={biology} id="card-img" />
+              <Card.Img variant="top" src={bio} id="card-img" />
             </div>
 
             <div className="card-img-details">
