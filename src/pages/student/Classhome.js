@@ -1,9 +1,10 @@
-import React from 'react'
-import Container from 'react-bootstrap/Container'
-import Button from 'react-bootstrap/Button'
-import biocell from '../media/Biologytopic.png'
-import bioevol from '../media/bioevolution.png'
-import './classhome.css'
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
+import biocell from '../media/Biologytopic.png';
+import bioevol from '../media/bioevolution.png';
+import { Link } from 'react-router-dom';
+import './classhome.css';
 
 function Classhome() {
   const open = () => {
@@ -48,7 +49,9 @@ function Classhome() {
                 <h2>Properties of Life</h2>
                 <p class="right-spacer-paragraph">
                   In its broadest sense, biology is the study of living
-                  things—the science of life. Living things come in an
+                  things—the science of life.
+                  <Link to="/classtopics">Topics</Link>
+                  Living things come in an
                   astounding variety of shapes and forms, and biologists study
                   life in many different ways. They live with gorillas, collect
                   fossils, and listen to whales. They isolate viruses, grow
