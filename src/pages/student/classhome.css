@@ -74,8 +74,58 @@ body{
   margin: 0;
 }
 .right-spacer-content {
-  padding-right: 0rem;
-  padding-left: 1.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  height: 100vh;
+  overflow:auto;
+  background-color: #eeccff;
+}
+.right-spacer-content-topic{
+  background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.2);
+padding-top: 2rem;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+}
+.right-spacer-content-topics{
+  background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.2);
+padding-top: 2rem;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+}
+.right-spacer-content-topics>h1{
+  color: rgb(233, 0, 82);
+  font-weight: bold;
+
+}
+.right-spacer-content-topic>h1{
+  color:rgb(233,0,82);
+  font-weight: bold;
+}
+.right-spacer-content-topics>h2{
+  color: rgb(56, 0, 60);
+  font-weight: bold;
+
+}
+.right-spacer-content-topic>h2{
+  color: rgb(56, 0, 60);
+  font-weight: bold;
+}
+
+.right-spacer-paragraph{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
+ color:rgb(34, 34, 34); 
+
 }
 #right-spacer-notes-container {
   background-color: none;
@@ -86,6 +136,7 @@ body{
   left: 0;
   right: 0;
   height: 100vh;
+  display:none;
 }
 #right-spacer-notes {
   height: 91%;
@@ -128,7 +179,53 @@ body{
     width: 100%;
     padding: 0;
     margin: 0;
+    background-color:#eeccff;
 }
+.right-spacer-content-topic {
+  background:  rgba(255, 255, 255,0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.right-spacer-content-topics {
+  background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.2);
+
+  padding-top: 3rem;
+}
+.right-spacer-content-topics > h1 {
+  color: rgb(233, 0, 82);
+  font-weight: bold;
+}
+.right-spacer-content-topic > h1 {
+  color: rgb(233, 0, 82);
+  font-weight: bold;
+}
+.right-spacer-content-topics > h2 {
+  color: rgb(56, 0, 60);
+  font-weight: bold;
+}
+.right-spacer-content-topic > h2 {
+  color: rgb(56, 0, 60);
+  font-weight: bold;
+}
+
+.right-spacer-paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
+  color: rgba(255, 136, 0, 1);
+  color: rgb(34, 34, 34);
+}
+
 #right-spacer-container-buttons{
 position: fixed;
 bottom:4rem;
@@ -211,7 +308,7 @@ border-radius: 0.5rem;
 border-bottom-right-radius: 1.8rem;
 padding: 2rem 0.5rem;
 /* From https://css.glass */
-background: rgba(255, 255, 255, 0.8);
+background: rgba(255, 255, 255, 0.2);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
