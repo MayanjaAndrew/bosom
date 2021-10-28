@@ -15,7 +15,7 @@ function App() {
   <Route path="/" exact component={Parent}/>
   <Route path="/Register" component={Register}/>
   <Route path="/classintro" component={Classintro}/>
-  <Route path="/classtopics" component={Classtopics}/>
+  <Route path="/classtopic" component={Classtopics}/>
   <Route path="/parentone" component={Parentone}/>
   </Switch>
   </Router>

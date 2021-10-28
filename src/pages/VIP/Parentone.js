@@ -9,12 +9,7 @@ import './navigation.css'
 function Parentone() {
   return (
     <>
-    <Router>
-    <Switch>
-    <Route to="/" component={Classhome}/>
-    <Route to="/classtopics" component={Classtopics}/>
-    </Switch>
-    </Router>
+    <Classhome/>
     <Navbar/>
     </>
   )

@@ -48,6 +48,7 @@ function Classhome() {
                 <h1>1.1 Biology is the science of life.</h1>
                 <h2>Properties of Life</h2>
                 <p class="right-spacer-paragraph">
+                  <Link to="/classtopic">Topics</Link>
                   In its broadest sense, biology is the study of living
                   things—the science of life.
                   <Link to="/classtopics">Topics</Link>

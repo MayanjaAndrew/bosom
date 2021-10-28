@@ -2,93 +2,215 @@ import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Container from "react-bootstrap/Container";
 import Navbar from '../VIP/Navbar';
+import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card'
 import Button from "react-bootstrap/Button"
 import robot from "../media/robotics.jpg";
+import add from '../media/—Pngtree—plus vector icon_4236965.png';
 import "./Classtopics.css";
 
 function Classtopics() {
     return (
         <>
         <Container fluid id="container-topics">
-        <div className="container-left-spacer"></div>
-
+        <div className="container-left-gap"></div>
+        
         <div className="container-topic-list">
+       
         <div className="div-topics-list">
         <div className="div-topics-list-inside">
-             <Card id="card-topics" style={{ width: '100%' }}>
-            <div className="card-img-contain">
-              <Card.Img variant="top" src={robot} id="card-img" rounded />
-            </div>
-            <div className="card-img-details">
-              <Card.Body>
-                <Card.Title>Class</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
-                  Robotics
-                </Card.Subtitle>
-                <Card.Text>
-                  Robotics explores the world of automation and IOT
-                </Card.Text>
-                 <Button variant="primary">Start Class</Button>
-              </Card.Body>
-            </div>
-          </Card>
-          
-           <Card id="card-topics" style={{ width: '100%' }}>
-            <div className="card-img-contain">
-              <Card.Img variant="top" src={robot} id="card-img" rounded />
-            </div>
-            <div className="card-img-details">
-              <Card.Body>
-                <Card.Title>Class</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
-                  Robotics
-                </Card.Subtitle>
-                <Card.Text>
-                  Robotics explores the world of automation and IOT
-                </Card.Text>
-                 <Button variant="primary">Start Class</Button>
-              </Card.Body>
-            </div>
-          </Card>
-
-           <Card id="card-topics" style={{ width: '100%' }}>
-            <div className="card-img-contain">
-              <Card.Img variant="top" src={robot} id="card-img" rounded />
-            </div>
-            <div className="card-img-details">
-              <Card.Body>
-                <Card.Title>Class</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
-                  Robotics
-                </Card.Subtitle>
-                <Card.Text>
-                  Robotics explores the world of automation and IOT
-                </Card.Text>
-                 <Button variant="primary">Start Class</Button>
-              </Card.Body>
-            </div>
-          </Card>
-
-           <Card id="card-topics" style={{ width: '100%' }}>
-            <div className="card-img-contain">
-              <Card.Img variant="top" src={robot} id="card-img" rounded />
-            </div>
-            <div className="card-img-details">
-              <Card.Body>
-                <Card.Title>Class</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
-                  Robotics
-                </Card.Subtitle>
-                <Card.Text>
-                  Robotics explores the world of automation and IOT
-                </Card.Text>
-                 <Button variant="primary">Start Class</Button>
-              </Card.Body>
-            </div>
-          </Card>
+         <div className="topic-search">
+          <input type="text" placeholder="Search" />
+          <Button>Search</Button>
         </div>
-           
+          <ul class="ul-topics-list-inside">
+              <li className="card-topics">
+               <div class="topic">
+                 <div class="topic-image">
+                  <div class="topic-shade">
+                  <div class="topic-snap">
+                   <h1 class="topic-heading">1.1 Biology is the science of life</h1>
+                   <h2 class="topic-subheading">Properties of Life</h2>
+                   <p class="topic-brief"> In its broadest sense, biology is the study of living
+                  things—the science of life.</p>
+                  <Button id="test">more</Button>
+                 </div>
+                   </div>
+                 </div>
+               </div>
+              </li>
+              <li className="card-topics">
+               <div class="topic">
+                 <div class="topic-image">
+                  <div class="topic-shade">
+                  <div class="topic-snap">
+                   <h1 class="topic-heading">1.1 Biology is the science of life</h1>
+                   <h2 class="topic-subheading">Properties of Life</h2>
+                   <p class="topic-brief"> In its broadest sense, biology is the study of living
+                  things—the science of life.</p>
+                    <Button id="test">more</Button>
+                 </div>
+                   </div>
+                 </div>
+               </div>
+              </li>
+              <li className="card-topics">
+                <div class="topic">
+                 <div class="topic-image">
+                  <div class="topic-shade">
+                  <div class="topic-snap">
+                   <h1 class="topic-heading">1.1 Biology is the science of life</h1>
+                   <h2 class="topic-subheading">Properties of Life</h2>
+                   <p class="topic-brief"> In its broadest sense, biology is the study of living
+                  things—the science of life.</p>
+                    <Button id="test">more</Button>
+                 </div>
+                   </div>
+                 </div>
+               </div>
+              </li>
+              <li className="card-topics">
+                 <div class="topic">
+                 <div class="topic-image">
+                  <div class="topic-shade">
+                  <div class="topic-snap">
+                   <h1 class="topic-heading">1.1 Biology is the science of life</h1>
+                   <h2 class="topic-subheading">Properties of Life</h2>
+                   <p class="topic-brief"> In its broadest sense, biology is the study of living
+                  things—the science of life.</p>
+                 </div>
+                   </div>
+                 </div>
+               </div>
+              </li>
+              <li className="card-topics">
+                <div class="topic">
+                 <div class="topic-image">
+                  <div class="topic-shade">
+                  <div class="topic-snap">
+                   <h1 class="topic-heading">1.1 Biology is the science of life</h1>
+                   <h2 class="topic-subheading">Properties of Life</h2>
+                   <p class="topic-brief"> In its broadest sense, biology is the study of living
+                  things—the science of life.</p>
+                 </div>
+                   </div>
+                 </div>
+               </div>
+              </li>
+              <li className="card-topics">
+                 <div class="topic">
+                 <div class="topic-image">
+                  <div class="topic-shade">
+                  <div class="topic-snap">
+                   <h1 class="topic-heading">1.1 Biology is the science of life</h1>
+                   <h2 class="topic-subheading">Properties of Life</h2>
+                   <p class="topic-brief"> In its broadest sense, biology is the study of living
+                  things—the science of life.</p>
+                 </div>
+                   </div>
+                 </div>
+               </div>
+              </li>
+               <li className="card-topics">
+                 <div class="topic">
+                 <div class="topic-image">
+                  <div class="topic-shade">
+                  <div class="topic-snap">
+                   <h1 class="topic-heading">1.1 Biology is the science of life</h1>
+                   <h2 class="topic-subheading">Properties of Life</h2>
+                   <p class="topic-brief"> In its broadest sense, biology is the study of living
+                  things—the science of life.</p>
+                 </div>
+                   </div>
+                 </div>
+               </div>
+              </li>
+               <li className="card-topics">
+                 <div class="topic">
+                 <div class="topic-image">
+                  <div class="topic-shade">
+                  <div class="topic-snap">
+                   <h1 class="topic-heading">1.1 Biology is the science of life</h1>
+                   <h2 class="topic-subheading">Properties of Life</h2>
+                   <p class="topic-brief"> In its broadest sense, biology is the study of living
+                  things—the science of life.</p>
+                 </div>
+                   </div>
+                 </div>
+               </div>
+              </li>
+               <li className="card-topics">
+                 <div class="topic">
+                 <div class="topic-image">
+                  <div class="topic-shade">
+                  <div class="topic-snap">
+                   <h1 class="topic-heading">1.1 Biology is the science of life</h1>
+                   <h2 class="topic-subheading">Properties of Life</h2>
+                   <p class="topic-brief"> In its broadest sense, biology is the study of living
+                  things—the science of life.</p>
+                 </div>
+                   </div>
+                 </div>
+               </div>
+              </li>
+               <li className="card-topics">
+                 <div class="topic">
+                 <div class="topic-image">
+                  <div class="topic-shade">
+                  <div class="topic-snap">
+                   <h1 class="topic-heading">1.1 Biology is the science of life</h1>
+                   <h2 class="topic-subheading">Properties of Life</h2>
+                   <p class="topic-brief"> In its broadest sense, biology is the study of living
+                  things—the science of life.</p>
+                 </div>
+                   </div>
+                 </div>
+               </div>
+              </li>
+               <li className="card-topics">
+                 <div class="topic">
+                 <div class="topic-image">
+                  <div class="topic-shade">
+                  <div class="topic-snap">
+                   <h1 class="topic-heading">1.1 Biology is the science of life</h1>
+                   <h2 class="topic-subheading">Properties of Life</h2>
+                   <p class="topic-brief"> In its broadest sense, biology is the study of living
+                  things—the science of life.</p>
+                 </div>
+                   </div>
+                 </div>
+               </div>
+              </li>
+               <li className="card-topics">
+                 <div class="topic">
+                 <div class="topic-image">
+                  <div class="topic-shade">
+                  <div class="topic-snap">
+                   <h1 class="topic-heading">1.1 Biology is the science of life</h1>
+                   <h2 class="topic-subheading">Properties of Life</h2>
+                   <p class="topic-brief"> In its broadest sense, biology is the study of living
+                  things—the science of life.</p>
+                 </div>
+                   </div>
+                 </div>
+               </div>
+              </li>
+               <li className="card-topics">
+                 <div class="topic">
+                 <div class="topic-image">
+                  <div class="topic-shade">
+                  <div class="topic-snap">
+                   <h1 class="topic-heading">1.1 Biology is the science of life</h1>
+                   <h2 class="topic-subheading">Properties of Life</h2>
+                   <p class="topic-brief"> In its broadest sense, biology is the study of living
+                  things—the science of life.</p>
+                 </div>
+                   </div>
+                 </div>
+               </div>
+              </li>
+            </ul>
+        </div>
         </div>
        </div>
         </Container>
