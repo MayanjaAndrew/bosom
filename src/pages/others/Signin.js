@@ -1,7 +1,7 @@
 import React from 'react'
 import "./signin.css";
 import "../bootstrap.css";
-import Logo from '../VIP/ASEI-3D-Logo.png'
+import Logo from '../media/Real MyBosom Logo 2nd Draft Trans.png'
 import Button from 'react-bootstrap/Button';
 import Container from "react-bootstrap/Container";
 import {Link} from "react-router-dom";
@@ -15,7 +15,7 @@ function Signin() {
     return (
    
     <section class="signin__section">
- <Container>
+ <Container id="sigin_container">
    <div class="logos">
  <div className="signin-image">
      <img src={Logo} alt="logo"></img>
@@ -34,7 +34,7 @@ function Signin() {
   <div className="checkbox">
     <label><input type="checkbox"/> Remember me</label>
   </div>
-  <Link to="/classintro"><Button type="submit" className="button">SignIn</Button></Link>
+  <Link to="/classintro"><Button type="submit" className="button" id="siginin-button">SignIn</Button></Link>
 
   </form>
 
@@ -42,8 +42,6 @@ function Signin() {
 
   <div class="signin-opts">
    <div class="signin-opt"></div>
-   <div  class="signin-opt-middle"></div>
-   <div  class="signin-opt"></div>
   </div>
   <div class="signup-set">Don't have an account?<Link to="/Register">Sign Up</Link></div>
  </Container>

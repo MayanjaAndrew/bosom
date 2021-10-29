@@ -10,7 +10,7 @@ function Parentone() {
   return (
     <>
     <Classhome/>
-    <Navbar/>
+    <Navbar bg={'#eeccff'}/>
     </>
   )
 }

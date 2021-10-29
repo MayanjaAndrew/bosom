@@ -20,13 +20,12 @@ body{
 }
 #navigation-tabs{
     position: fixed;
-    background-color: rgb(56, 0, 60);
     bottom: 0rem;
     left:0;
     right: 0;
     padding: 0.5rem 0rem;
     border-top: 1px solid rgb(56, 0, 60);
-    background-color: rgb(56, 0, 60);
+  
     box-shadow: 0px 0px 7px 1.5px rgb(67, 5, 73);
     z-index: 998;
 }
@@ -38,11 +37,14 @@ body{
   height: 60%;
 }
 .contents {
-  color: #f3f3f3;
+  color: rgb(4, 245, 255);
+  text-align: center;
+  border:none;
+  height: 2.5rem;
 }
-
-
-
+#icon-name{
+  color:rgb(4, 245, 255);
+}
 
 #navi-images{
   max-width: 3rem;
@@ -66,7 +68,6 @@ body{
     position:fixed;
     padding: 0.5rem 0rem;
     border-right: 1px solid rgb(56, 0, 60);
-    background-color: rgb(56, 0, 60);
     box-shadow: 0px 0px 7px 1.5px rgb(67, 5, 73);
     z-index: 998;
     height:100vh;
@@ -112,8 +113,12 @@ body{
   padding: 1rem 0.5rem;
 }
 .contents{
-  width:2rem;
+  width:4rem;
   height:2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*border:1px solid white;**/
 }
 
 }

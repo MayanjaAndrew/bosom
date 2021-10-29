@@ -4,8 +4,51 @@
 body{
     margin:0;
 }
+#offcanvas-Nav-logo{
+    background-color: rgb(4, 245, 255);
+}
+#classintro-section{
+    width: 100%;
+    background-color: rgb(56, 0, 60);
+}
+#classintro-nav{
+    width: 100%;
+    padding: 0rem;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+#classintro-navigation{
+width:100%;
+background-color: rgb(56, 0, 60);
+}
+#navbar-brand{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#classintro-search{
+    height: 2rem;
+    width: 9rem;
+    background-color: #f3f3f3;
+    border:1px solid #f3f3f3;
+}
+#classintro-button{
+    height: 2rem;
+    border: none;
+    background-color: rgb(4, 245, 255);
+    border: 1px solid rgb(4, 245, 255);
+}
+#button-other{
+    background-color:rgb(4, 245, 255);
+    border:none;
+}
+#mbb-2{color:rgba(255, 136, 0, 1);}
+#mb-3{
+    color:gray;
+}
 .container-topbar{
-    padding: 2rem;
+    padding: 0rem;
 }
 #card{
     border-radius: 2rem;
@@ -44,18 +87,37 @@ body{
 }
 }
 @media only screen and (min-width:768px){
-    #card{
-        flex:1;
-        margin-bottom: 0rem;
-        display: flex;
-        flex-direction: column;
-        /*background-color: #f3f3f3;*/
-        margin-left: 1rem;
-    }
-    #container-fluid{
-        display: flex;
-        flex-direction: column;
-    }
+#card{
+    flex:1;
+    margin-bottom: 0rem;
+    display: flex;
+    flex-direction: column;
+    /*background-color: #f3f3f3;*/
+    margin-left: 1rem;
+}
+#container-fluid{
+    display: flex;
+    flex-direction: column;
+}
+#navbar-brand{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#classintro-search {
+  height: 2rem;
+  width:15rem;
+}
+#classintro-button {
+  height: 2rem;
+  border: none;
+}
+#mbb-2 {
+  color: rgba(255, 136, 0, 1);
+}
+
+
     .container-fluid-group-one{
         display: flex;
         flex-direction: row;

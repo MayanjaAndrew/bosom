@@ -87,7 +87,7 @@ function Classhome() {
                 </p>
                 <img src={biocell} />
               </div>
-              <div class="right-spacer-content-topics">
+              <div class="right-spacer-content-topic">
                 <h1>
                   1.2 Darwin’s theory of evolution illustrates how science
                   works.

@@ -2,12 +2,12 @@ import React from 'react';
 import "./register.css";
 import Button from 'react-bootstrap/Button';
 import Container from "react-bootstrap/Container";
-import Logo from '../VIP/ASEI-3D-Logo.png';
+import Logo from '../media/Real MyBosom Logo 2nd Draft Trans.png';
 
 function Register() {
     return (
       <section class="signin__section">
-        <Container className="contain">
+        <Container className="contain"  id="sigin_container">
         <div class="logos">
           <div className="signin-image">
           <img src={Logo}></img>
@@ -29,15 +29,13 @@ function Register() {
   <div className="checkbox">
     <label><input type="checkbox"/> Remember me</label>
   </div>
-  <Button type="submit" className="button">Sign Up</Button>
+  <Button type="submit" className="button" id="siginin-button">Sign Up</Button>
   </form>
 
   <p class="signin-p">-Or sign up with-</p>
 
   <div class="signin-opts">
    <div class="signin-opt"></div>
-   <div  class="signin-opt-middle"></div>
-   <div  class="signin-opt"></div>
   </div>
  </Container>
       </section>

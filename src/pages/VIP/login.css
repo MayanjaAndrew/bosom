@@ -43,7 +43,7 @@ background-color: rgb(0,255,133);
 }
 .Login__image{
     flex:1;
-    background-image: url('./ASEI-3D-Logo.png');
+    background-image: url('../media/Real\ MyBosom\ Logo\ 2nd\ Draft\ Trans.png');
 background-position: center;
 background-size:contain;
 background-repeat: no-repeat;
